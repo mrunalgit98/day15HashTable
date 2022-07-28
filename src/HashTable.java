@@ -20,7 +20,7 @@ public class HashTable {
     }
 
     public static void main(String[] args) {
-        String str="To be or not to be";
+        String str="paranoids are not paranoids because they are paranoid but they keep putting themselves deliberately into paranoid avoidable situation";
         count(str);
 
     }
