@@ -14,8 +14,10 @@ public class HashTable {
                 map.put(arr[i],1);
             }
         }
-        for(Map.Entry<String,Integer> entry : map.entrySet()){
-            System.out.println(entry.getKey()+ "---" +entry.getValue());
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            if(entry.getKey().equals("avoidable"))
+            continue;
+            System.out.println(entry.getKey() + "---" + entry.getValue());
         }
     }
 
